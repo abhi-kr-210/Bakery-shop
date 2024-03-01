@@ -1,0 +1,43 @@
+.chefs{
+    padding-top:100px;
+    padding-bottom:0px;
+    
+}
+.chefs .chef_img_effect img{
+   width:100%;
+   cursor: pointer;
+    -webkit-transition: all 500ms ease-in-out;
+    -moz-transition: all 500ms ease-in-out;
+    -ms-transition: all 500ms ease-in-out;
+    -o-transition: all 500ms ease-in-out;
+    transition: all 500ms ease-in-out;
+}
+
+  .chefs  .chef_img_effect img:hover {
+    transform: scale(1.1);
+  }
+
+.chef_heading h2{
+    font-family: 'Pacifico', cursive;
+    color: #d27c19 ;
+    font-weight: 700 ;
+    font-size: 2rem;
+}
+.chef_heading h3{
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height:1.2;
+    
+}
+.chefs .info_box{
+    background-color: rgba(41, 18, 3, 0.912);
+    color: white !important;
+    text-align: center;
+}
+.chefs .info_box h2{
+    font-size: 2rem;
+    color: rgb(230, 155, 26) ;
+}
+.chefs .info_box h3{
+    font-size: 1.75rem;
+}
